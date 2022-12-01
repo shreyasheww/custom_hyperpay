@@ -29,14 +29,7 @@ public class SwiftHyperpayPlugin: NSObject, FlutterPlugin, SFSafariViewControlle
     var addAmount = ""
     var paymentGetwayType:String = ""
     
-    
-    
-    var checkoutID:String = ""
-    var cardHolder:String = ""
-    var cardNumber:String = ""
-    var expiryMonth:String = ""
-    var expiryYear:String = ""
-    var cvv:String = ""
+
     
     /// Apple pay specific args.
     var countryCode:String = ""
